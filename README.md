@@ -3,24 +3,26 @@
 Repo to multiple react app templates. Feel free to add your own.
 
 > Like the repo? Leave a 🎇, it helps ;)
-
+---
 ## Want your own template?
 - Create a new branch with the name `cra-USER-TEMPLATE_USE-VERSION` (eg. `cra-danie12345-react_basic-1`)
 - Modify what you need. Here is a [sample](https://github.com/ihaback/create-react-app-template) of what you can do
 - To test that your template works:
   - First run: `npx create-react-app my-app --template file:.`
-  - Then, run `cd my-app`
+  - Second run `cd my-app`
+  - Then run `npm i` (install the right dependencies, cannot skip this step)
   - Finally run `npm start`
 - To publish your template:
   - Change the `"name"` property in `package.json` (Not the one in `my-app/package.json`)
   - Use a similar naming system to the branch you're in
   - Run: `npm publish`
 
-  *Create your own branch with your username `danie12345`, and in it as many branches as you need, but **DO NOT** create PR's. You can fork instead.*
+  *Create your own branch with your username (eg. `danie12345`), and in it as many branches as you need, but **DO NOT** create PR's. You can fork instead.*
 
 - To create your react app run `npx create-react-app my-app --template your-template-name` in the directory you want your project to be in.
 
-
+---
+> The following are dependencies in main, which you can delete in your own branch if needed. These can be found in ` template.json`.
 ## Dependencies in Main
 - `@testing-library/jest-dom@5.16.4`
 - `@testing-library/react@13.2.0`
