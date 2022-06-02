@@ -1,0 +1,20 @@
+{
+  "name": "cra-danie12345-react_main-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danie12345/react-templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danie12345/react-templates/issues"
+  },
+  "homepage": "https://github.com/Danie12345/react-templates#readme"
+}
